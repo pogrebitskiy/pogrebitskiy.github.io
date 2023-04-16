@@ -1,8 +1,5 @@
 @media (max-width: 640px) {
   .container {
     padding: 4px;
-  },
-  #top-button {
-    class: "h-4 w-4"
   }
 }

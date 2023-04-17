@@ -33,14 +33,40 @@
       <section id="projects" class="mb-20">
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4">
           <div class="bg-white rounded-lg shadow p-6 flex flex-col">
+            <img src="/project_files/EZ_Itinerary/preview.png" class="mb-4 rounded-md">
+            <h3 class="text-xl font-bold mb-2">EZ Itinerary - Vacation Planner</h3>
+            <p class="text-gray-700 mb-2 italic text-sm">Apr 2022 - May 2022</p>
+            <p class="text-gray-700 mb-4">Implemented a 12-table relational database in MySQL to assist in vacation planning.
+              The data was gathered from Yelp to include business across Boston.
+            Allows users to create travel groups and plan their hotels, restaurants, and excursions. Utilizes Flask and Python
+            to interact with the database with a friendly user-interface.</p>
+            <div class="flex justify-between mt-auto">
+              <div class="flex flex-wrap">
+                <span class="bg-gray-200 text-gray-800 text-sm font-semibold py-1 px-2 rounded-full mr-2 mt-2">MySQL</span>
+                <span class="bg-gray-200 text-gray-800 text-sm font-semibold py-1 px-2 rounded-full mr-2 mt-2">Python</span>
+                <span class="bg-gray-200 text-gray-800 text-sm font-semibold py-1 px-2 rounded-full mr-2 mt-2">Flask</span>
+              </div>
+              <div class="flex items-end">
+                <div class="flex mr-2">
+                  <a href="https://github.com/pogrebitskiy/ezitinerary" title="GitHub" target="_blank" class="text-gray-600 hover:text-gray-400 mr-2">
+                    <i class="fab fa-github fa-lg"></i>
+                  </a>
+                  <a href="/project_files/EZ_Itinerary/presentation.pdf" title="Presentation" target="_blank" class="text-gray-600 hover:text-gray-400 mr-2">
+                    <i class="fas fa-chalkboard-teacher fa-lg"></i>
+                  </a>
+                </div>
+                <span class="text-gray-700 text-sm font-semibold"></span>
+              </div>
+            </div>
+          </div>
+          <div class="bg-white rounded-lg shadow p-6 flex flex-col">
             <img src="/project_files/DATA_Application/preview.png" alt="Executive Pay Analysis Image" class="mb-4 rounded-md">
             <h3 class="text-xl font-bold mb-2">Impact of Executive Pay on Firm Performance</h3>
             <p class="text-gray-700 mb-2 italic text-sm">Dec 2021 - Feb 2022</p>
-            <p class="text-gray-700 mb-4">The project analyzes the relationship between executive pay
-              and firm performance through data wrangling and visualization. The data was retrieved
-              from Wharton Research Data Services and merged to create new performance indicators.
-              The visualizations show that there is little correlation between executive pay and firm
-              performance, but a significant difference in salary between men and women.</p>
+            <p class="text-gray-700 mb-4">Evaluated correlation between increase in the success of a company and the
+              compensation for top executives with Python. Wrangled stock data for over 500 companies using Pandas
+              library on Compustat and CRSP databases. Found minimal evidence to prove executive pay is correlated with
+            firm performance.</p>
             <div class="flex justify-between mt-auto">
               <div class="flex flex-wrap">
                 <span class="bg-gray-200 text-gray-800 text-sm font-semibold py-1 px-2 rounded-full mr-2 mt-2">Python</span>
@@ -50,13 +76,13 @@
               </div>
               <div class="flex items-end">
                 <div class="flex mr-2">
-                  <a href="https://github.com/pogrebitskiy/DATA-Research-Application" title="GitHub" target="_blank" class="text-gray-800 hover:text-gray-400 mr-2">
+                  <a href="https://github.com/pogrebitskiy/DATA-Research-Application" title="GitHub" target="_blank" class="text-gray-600 hover:text-gray-400 mr-2">
                     <i class="fab fa-github fa-lg"></i>
                   </a>
-                  <a href="/project_files/DATA_Application/presentation.pdf" title="Presentation" target="_blank" class="text-gray-800 hover:text-gray-400 mr-2">
+                  <a href="/project_files/DATA_Application/presentation.pdf" title="Presentation" target="_blank" class="text-gray-600 hover:text-gray-400 mr-2">
                     <i class="fas fa-chalkboard-teacher fa-lg"></i>
                   </a>
-                  <a href="/project_files/DATA_Application/writeup.pdf" title="Report" target="_blank" class="text-gray-800 hover:text-gray-400">
+                  <a href="/project_files/DATA_Application/writeup.pdf" title="Report" target="_blank" class="text-gray-600 hover:text-gray-400">
                     <i class="far fa-file-alt fa-lg"></i>
                   </a>
                 </div>
@@ -68,11 +94,11 @@
             <img src="/project_files/Financial_Data_Stock_Price%20Correlation/preview.png" alt="Finance Project Image" class="mb-4 rounded-md">
             <h3 class="text-xl font-bold mb-2">Financial Data and Stock Price Correlation</h3>
             <p class="text-gray-700 mb-2 italic text-sm">Nov 2021 - Dec 2021</p>
-            <p class="text-gray-700 mb-4">The objective of this project was to investigate the correlation
-              between financial data and stock prices of Apple and Google from 2000 to 2021. Over 600 variables
-              were extracted from the WRDS Compustat database and analyzed through financial ratios.
-              The results were unpredictable, and clear graphs with linear regression were presented.
-              Future steps include expanding the analysis to other companies and more recent years of data.</p>
+            <p class="text-gray-700 mb-4">Investigated the correlation
+              between financial ratios and stock prices of Apple and Google. Utilized pandas
+              to calculate ratios, build visualizations, and evaluate correlation between the stock price
+              and the associated ratio. The analysis reveals that certain metrics and relationships are hard to predict,
+              even across companies in the same industry.</p>
             <div class="flex justify-between mt-auto">
               <div class="flex flex-wrap">
                 <span class="bg-gray-200 text-gray-800 text-sm font-semibold py-1 px-2 rounded-full mr-2 mt-2">Python</span>
@@ -81,13 +107,13 @@
               </div>
               <div class="flex items-end">
                 <div class="flex mr-2">
-                  <a href="https://github.com/pogrebitskiy/Finance_Correlation" title="GitHub" target="_blank" class="text-gray-800 hover:text-gray-400 mr-2">
+                  <a href="https://github.com/pogrebitskiy/Finance_Correlation" title="GitHub" target="_blank" class="text-gray-600 hover:text-gray-400 mr-2">
                     <i class="fab fa-github fa-lg"></i>
                   </a>
-                  <a href="/project_files/Financial_Data_Stock_Price%20Correlation/presentation.pdf" title="Presentation" target="_blank" class="text-gray-800 hover:text-gray-400 mr-2">
+                  <a href="/project_files/Financial_Data_Stock_Price%20Correlation/presentation.pdf" title="Presentation" target="_blank" class="text-gray-600 hover:text-gray-400 mr-2">
                     <i class="fas fa-chalkboard-teacher fa-lg"></i>
                   </a>
-                  <a href="/project_files/Financial_Data_Stock_Price%20Correlation/writeup.pdf" title="Report" target="_blank" class="text-gray-800 hover:text-gray-400">
+                  <a href="/project_files/Financial_Data_Stock_Price%20Correlation/writeup.pdf" title="Report" target="_blank" class="text-gray-600 hover:text-gray-400">
                     <i class="far fa-file-alt fa-lg"></i>
                   </a>
                 </div>
